@@ -3,7 +3,9 @@ package com.learner.search.mapper;
 import com.learner.search.dto.ProductDto;
 import com.learner.search.entity.Product;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProductMapper {
 
     private final ModelMapper mapper = new ModelMapper();
